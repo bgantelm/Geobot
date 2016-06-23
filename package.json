@@ -1,28 +1,25 @@
 {
-  "name": "bot",
+  "name": "geobot",
   "version": "1.0.0",
-  "description": "This weather bot is powered by Natural Language Processsing (NLP) with [Recast.AI](https://recast.ai) and is plugged to [Microsoft Bot Framework](https://dev.botframework.com/) to easily connect it to many messaging applications.",
   "main": "bot.js",
-  "dependencies": {
-    "@slack/client": "^3.5.0",
-    "node": "^0.0.0",
-    "recastai": "^1.1.0",
-    "request-promise": "^3.0.0",
-    "restify": "^4.1.1",
-    "unirest": "^0.5.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RecastAI/weather-bot.git"
+    "url": "git+https://github.com/bgantelm/Geobot.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RecastAI/weather-bot/issues"
+    "url": "https://github.com/bgantelm/Geobot/issues"
   },
-  "homepage": "https://github.com/RecastAI/weather-bot#readme"
+  "homepage": "https://github.com/bgantelm/Geobot#readme",
+  "description": "",
+  "dependencies": {
+    "@slack/client": "^3.5.0",
+    "recastai": "^1.1.0",
+    "request-promise": "^3.0.0",
+    "restify": "^4.1.1"
+  }
 }
