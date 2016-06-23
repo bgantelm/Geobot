@@ -17,7 +17,7 @@ function getCapitals(recast) {
 	  }
 	return request(param)
 	.then(function (result) {
-		  return (JSON.parse(result)[0].capital)
+		  return ('The capital city of ' + JSON.parse(result)[0].name + ' is ' + JSON.parse(result)[0].capital)
 	})
 	.catch(function (error) {
 		return ('lol')

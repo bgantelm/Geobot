@@ -8,6 +8,8 @@ const recast = require('recastai')
 const getGreetings = require('./modules/greetings.js')
 const getGoodbyes = require('./modules/goodbyes.js')
 const getCapitals = require('./modules/capitals.js')
+const getCountry = require('./modules/country.js')
+const getCurrency = require('./modules/currency.js')
 
 
 // functions intents
@@ -15,6 +17,8 @@ const INTENTS = {
   goodbyes: getGoodbyes,
   greetings: getGreetings,
   capitals: getCapitals,
+  country: getCountry,
+  currency: getCurrency,
 }
 
 
