@@ -25,8 +25,7 @@ const INTENTS = {
 const recastClient = new recast.Client(config.recast)
 
 
-const SlackClient = slack.RtmClient
-const slackEvent = slack.RTM_EVENTS
+const { RtmClient: SlackClient, RTM_EVENTS: slackEvent } = slack
 const token = process.env.SLACK_API_TOKEN || config.slack
 const rtm = new SlackClient(token, { logLevel: 'false' })
 rtm.start()
